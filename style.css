@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(img/as.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 190vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+.logo{
+    color: rgb(0, 128, 38);
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 20px;
+    float: left;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 28px;
+    font-size: 20px;
+
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+ul li a:hover{
+    color: teal;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid lightblue;
+    margin-top: 13px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #000;
+    padding-left: 10px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: skyblue;
+    border-bottom-left-radius: 2px solid lightblue;
+    color: black;
+    font-size:20px;
+    transition: 0.4s ease;
+}
+.btn:focus{
+    outline: none;
+}
+.btn:hover{
+    background-color: tomato;
+}
+.content{
+   width: 1200px;
+   height: auto;
+   margin: auto;
+   color: white;
+   position: relative;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9px;
+    letter-spacing: 2px;
+}
+.content span{
+    color: tomato;
+}
+.content .cn{
+    margin-top: 20px;
+    background-color: skyblue;    
+    padding: 10px 5px;
+    width: 140px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: 0.4s ease;
+}
+.cn:hover{
+    background-color: tomato;
+}
+.form{
+    margin-left: 800px;
+    margin-top: -250px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)20%,rgba(0, 0, 0, 0.5)20%);
+    height: 400px;
+    letter-spacing: 1px;
+    width: 400px;
+   
+}
+.head{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: tomato;
+    padding: 20px;
+}
+.N{
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 20px;
+
+}
+.ff{
+    padding: 5px;
+    margin-left: 40px;margin-bottom: 10px;
+}
+.gg{
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+.P{
+    margin-left: 10px;
+   display: inline-block;
+    font-size: 20px;
+    
+}
+.form button{
+    width: 70px;
+    margin: 20px 130px;
+    padding: 5px;
+    transition: 0.4s ease;
+}
+.form button:hover{
+    background-color: tomato;
+}
+.form p{
+    margin: 10px 40px;
+    
+}
+.form a{
+    color: rgb(46, 46, 241);
+}
+.icons{
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+}
+.icons ion-icon{
+    color: cyan;
+    font-size: 30px;
+    
+}
